@@ -8,6 +8,31 @@
             
                 
                     <item>
+                        <title>Another release</title>
+                        <description><![CDATA[<p>This is the one that should get Sparkle working!</p>
+
+<ul>
+  <li>Right?</li>
+</ul>
+]]></description>
+                        <pubDate>Wed, 07 Feb 2018 20:57:11 +0000</pubDate>
+                        
+                            
+                            
+                            <enclosure
+                                url="https://github.com/frankdilo/sblack/releases/download/20180207002/Sblack.v1.0.b20180207002.zip"
+                                sparkle:version="20180207002"
+                                sparkle:shortVersionString="20180207002"
+                                length="5596798"
+                                type="application/octet-stream" />
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
                         <title>Trying to get code-signing working</title>
                         <description><![CDATA[<p>Some release notes.</p>
 ]]></description>
