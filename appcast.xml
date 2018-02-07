@@ -8,6 +8,29 @@
             
                 
                     <item>
+                        <title>Fix versioning</title>
+                        <description><![CDATA[<ul>
+  <li>Test</li>
+</ul>
+]]></description>
+                        <pubDate>Wed, 07 Feb 2018 21:02:21 +0000</pubDate>
+                        
+                            
+                            
+                            <enclosure
+                                url="https://github.com/frankdilo/sblack/releases/download/v1.0.1/Sblack.v1.0.1.b20180207003.zip"
+                                sparkle:version="20180207003"
+                                sparkle:shortVersionString="1.0.1"
+                                length="5596795"
+                                type="application/octet-stream" />
+                        
+                    </item>
+                
+            
+        
+            
+                
+                    <item>
                         <title>Another release</title>
                         <description><![CDATA[<p>This is the one that should get Sparkle working!</p>
 

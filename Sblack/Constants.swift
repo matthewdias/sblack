@@ -9,7 +9,6 @@
 import Foundation
 
 enum Constants {
-    // TODO: add url
     static let tweetURL = "https://twitter.com/intent/tweet?text=I’ve just made my Slack dark with this free app by the @getboxy team ⚫ 🙌 http://www.sblack.online".urlEscaped
     static let boxyURL = "http://www.boxyapp.co"
     static let helpURL = "https://github.com/frankdilo/sblack/wiki/Sblack-Help"
