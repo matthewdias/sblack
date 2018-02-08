@@ -108,6 +108,15 @@ body {
      background-color: #363636;
      border-right-color: #222;
 }
+.c-mrkdwn__mention {
+    color: #e6e6e6;
+    background: #363636;
+}
+.c-reaction {
+    color: #e6e6e6;
+    background-color: #363636;
+    border: #828282;
+}
  #col_channels {
      color: #e6e6e6 !important;
 }
