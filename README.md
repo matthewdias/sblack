@@ -15,6 +15,22 @@ Developed by [Francesco Di Lorenzo](http://www.twitter.com/frankdilo) and design
 - Drag `Slack.app` onto it
 - Boom, done!
 
+## How to Contribute
+
+If you want to improve the theme, this is the process:
+
+- Clone the repo
+- Install the theme
+- Open `/Applications/Slack/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
+- Down below in that file you will find the css that makes the theme
+- Edit it (relauch Slack.app to see the changes)
+- Report the edits to the css file in this repo
+
+You can enable "Inspect Element" in Slack for Mac by launching the app this way from the terminal:
+
+```sh
+SLACK_DEVELOPER_MENU=1 /Applications/Slack.app
+```
 
 ## Related
 
