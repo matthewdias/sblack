@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Cocoa
+import AppKit
 
 typealias Interaction = () -> Void
 typealias InteractionWithURL = (URL) -> Void
@@ -31,7 +31,11 @@ class DropAreaView: NSView {
     }
     
     func setup() {
-        self.registerForDraggedTypes([NSPasteboard.PasteboardType.URL])
+        if #available(OSX 10.13, *) {
+            self.registerForDraggedTypes([NSPasteboard.PasteboardType.URL])
+        } else {
+            self.registerForDraggedTypes([NSPasteboard.PasteboardType(kUTTypeURL as String)])
+        }
     }
     
     func autolayout() {

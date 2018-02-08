@@ -429,6 +429,7 @@
 				DEVELOPMENT_TEAM = 4Y79B9FA93;
 				INFOPLIST_FILE = Sblack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = co.boxyapp.Sblack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ee16d865-22c5-4085-8c36-51c7decc5ab0";
@@ -451,6 +452,7 @@
 				DEVELOPMENT_TEAM = 4Y79B9FA93;
 				INFOPLIST_FILE = Sblack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = co.boxyapp.Sblack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "ee16d865-22c5-4085-8c36-51c7decc5ab0";
