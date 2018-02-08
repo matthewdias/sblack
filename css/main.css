@@ -2,6 +2,10 @@
 @keyframes fadeIn {
   0% {
     opacity: 0; } }
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px); } }
 @keyframes previewAni {
   0% {
     opacity: 0;
@@ -27,25 +31,32 @@
   100% {
     opacity: 1; } }
 main {
-  animation: fadeIn 			4s .2s    both; }
+  animation: fadeIn 			3.5s .2s    both; }
 
 #preview {
-  animation: previewAni 	5s .5s 		both; }
+  animation: previewAni 	4.5s .5s 		both; }
 
 #app {
-  animation: appAni 			5s .5s 		both; }
+  animation: appAni 			4.5s .5s 		both; }
 
 #share {
-  animation: fadeIn 			.8s 5.5s 	both; }
+  animation: slideUp 			1.2s 5s 	both; }
+
+iframe {
+  animation: slideUp 			1.2s 5s 	both; }
 
 a {
   color: inherit; }
 
-a#contribute {
-  font-size: .8em;
-  color: #D20D59;
-  margin-top: 2em;
-  margin-bottom: 2em; }
+#smallLinks {
+  color: #464646;
+  margin: 2em 0; }
+  #smallLinks a {
+    font-size: .8em;
+    color: #D20D59;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: inline; }
 
 body {
   background: #141414;
@@ -176,18 +187,18 @@ info {
   font-size: .8em; }
 
 iframe {
-  position: relative;
-  left: -1.35em;
-  bottom: -1.35em;
-  margin: 0 !important;
-  transform-origin: 5% 100%;
-  transform: scale(0.9); }
+  position: fixed;
+  z-index: 5;
+  left: 4vw;
+  bottom: 4vw;
+  background: white;
+  border-radius: .5em; }
 
 #share {
   z-index: 10;
-  position: absolute;
-  top: 2em;
-  right: 2em;
+  position: fixed;
+  bottom: 4vw;
+  right: 4vw;
   display: flex;
   align-items: center;
   transition: .3s all ease; }
@@ -202,6 +213,10 @@ iframe {
     margin-right: .3em;
     font-weight: 600;
     font-size: .9em; }
+
+@media (max-width: 800px), (max-height: 680px) {
+  #share, iframe {
+    display: none; } }
 
 .sib-container {
   display: flex !important;

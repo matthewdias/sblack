@@ -14,6 +14,13 @@
 	}
 }
 
+@keyframes slideUp {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+}
+
 @keyframes previewAni {
 	0% {
 		opacity: 0;
@@ -49,21 +56,28 @@
 	}
 }
 
-main {			animation: fadeIn 			4s .2s    both;}
-#preview {	animation: previewAni 	5s .5s 		both;}
-#app {			animation: appAni 			5s .5s 		both;}
-#share {		animation: fadeIn 			.8s 5.5s 	both;}
+main {			animation: fadeIn 			3.5s .2s    both;}
+#preview {	animation: previewAni 	4.5s .5s 		both;}
+#app {			animation: appAni 			4.5s .5s 		both;}
+#share {		animation: slideUp 			1.2s 5s 	both;}
+iframe {		animation: slideUp 			1.2s 5s 	both;}
 
 a {
 	color: inherit;
 }
 
-a#contribute {
-	font-size: .8em;
-	color: #D20D59;
-	margin-top: 2em;
-	margin-bottom: 2em;
+#smallLinks {
+	color: rgb(70,70,70);
+	margin: 2em 0;
+	a {
+		font-size: .8em;
+		color: #D20D59;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		display: inline;
+	}
 }
+
 
 body {
 	background: rgb(20,20,20);
@@ -233,13 +247,17 @@ info {
 
 iframe {
 
-	position: relative;
-	left: -1.35em;
-	bottom: -1.35em;
-	margin: 0 !important;
+	position: fixed;
+	z-index: 5;
+	left: 4vw;
+	bottom: 4vw;
+	// margin: 2em 0 0;
 
-	transform-origin: 5% 100%;
-	transform: scale(.9);
+	// transform-origin: 0% 100%;
+	// transform: scale(.8);
+
+	background: white;
+	border-radius: .5em;
 }
 
 
@@ -247,9 +265,9 @@ iframe {
 
 	z-index: 10;
 
-	position: absolute;
-	top: 2em;
-	right: 2em;
+	position: fixed;
+	bottom: 4vw;
+	right: 4vw;
 
 	display: flex;
 	align-items: center;
@@ -269,6 +287,11 @@ iframe {
 	}
 }
 
+#share, iframe {
+	@media (max-width: 800px), (max-height: 680px) {
+		display: none;
+	}
+}
 
 
 
