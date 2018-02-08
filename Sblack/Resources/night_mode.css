@@ -117,6 +117,11 @@ body {
     background-color: #363636;
     border: #828282;
 }
+ .c-reaction_add {
+     background-color: #363636;
+     color: #e6e6e6;
+     border: #828282;
+}
  #col_channels {
      color: #e6e6e6 !important;
 }
