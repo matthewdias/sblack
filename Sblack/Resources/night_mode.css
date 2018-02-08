@@ -2292,6 +2292,11 @@ body {
  .snippet_preview pre, .snippet_body pre {
      color: #e6e6e6 !important;
 }
+
+.CodeMirror {
+    background: #fff !important;
+}
+
  .file_container .CodeMirror .CodeMirror-code > div::before, .file_container .CodeMirror .sssh-line::before, .file_container .sssh-code .CodeMirror-code > div::before, .file_container .sssh-code .sssh-line::before {
      background-color: #363636;
      border-right: 1px solid #363636;
