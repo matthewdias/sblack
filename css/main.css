@@ -161,15 +161,23 @@ main {
   .button:hover {
     transform: scale(1.1); }
   .button#download {
-    background: #D20D59;
+    opacity: .3;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: .4em;
     color: white;
     padding: .7em 1.6em .6em 1.2em;
+    cursor: not-allowed;
     text-decoration: none; }
     .button#download span {
       position: relative;
       bottom: .25em;
       margin-left: .25em; }
+
+contribute {
+  margin-top: 2em;
+  font-size: .95em;
+  line-height: 1.5em;
+  opacity: .6; }
 
 info {
   margin-top: 0em;

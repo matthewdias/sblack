@@ -208,10 +208,12 @@ main {
 	@include hoverZoom;
 
 	&#download {
-		background: #D20D59;
+		opacity: .3;
+		background: rgba(255,255,255,.2);
 		border-radius: .4em;
 		color: white;
 		padding: .7em 1.6em .6em 1.2em;
+		cursor: not-allowed;
 		
 		text-decoration: none;
 
@@ -222,6 +224,13 @@ main {
 		}
 
 	}
+}
+
+contribute {
+	margin-top: 2em;
+	font-size: .95em;
+	line-height: 1.5em;
+	opacity: .6;
 }
 
 info {
