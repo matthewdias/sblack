@@ -1,3 +1,5 @@
+⚠️ Sblack is <strong>no longer available for download</strong> since the app is in violation of the Slack Acceptable Use Policy. It was fun while it lasted, sorry guys!
+
 # Sblack &nbsp;<img width="50px" src="Github/icon.png">
 
 > Sblack makes [Slack for Mac](https://slack.com/downloads/osx) easier on your eyes. 
@@ -10,7 +12,7 @@ Developed by [Francesco Di Lorenzo](http://www.twitter.com/frankdilo) and design
 
 ## Install and Usage
 
-- [**Download Sblack**](https://github.com/frankdilo/sblack/releases/latest)
+- ~Download Sblack~ (no longer available)
 - Open the app
 - Drag `Slack.app` onto it
 - Boom, done!
